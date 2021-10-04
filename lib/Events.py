@@ -143,7 +143,7 @@ class Event:
         :param callback_method: method to invoke on callback
         :return: None
         """
-        self.subscribe(EventCallback(callback_method, False))
+        self.subscribe(EventCallback(callback_method, invoke_once=False))
 
     def respond(self, callback_method):
         """
