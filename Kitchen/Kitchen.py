@@ -1,5 +1,6 @@
 """
 Kitchen.py
+This script is intended to run as a separate process and simulate a communication target outside the EDF. 
 Run "python Kitchen.py" in the terminal to get it started. Two files will be created in the project root /Data dir:
 kitchen_state: will contain the current state updated every cycle and will contain information on oven status, orders,
     and baked goods cooling on the rack
