@@ -1,1 +1,2 @@
 # EDF1
+This demonstration contains a library for handling event callbacks and demonstration code (Runner, controller, subject process). The code simulates a kitchen that bakes cakes and cookies. It runs in its own process, and uses file based communication. The Runner and KitchenController use the Event module to communicate with the kitchen. Output is generated in the console showing how Events can be cascaded to invoke each other and pass messages, and how a controller might implement events to communicate various scenarios. 
